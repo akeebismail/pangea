@@ -74,3 +74,11 @@ exports.publishMessage = async (req, res) => {
         })
     }
 }
+
+exports.event = (req, res) => {
+    return res.status(200).send({
+        status: true,
+        message: 'Message received successfully',
+        data: req.body
+    })
+}

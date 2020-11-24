@@ -6,7 +6,7 @@ RabbitMq is used for messaging queue you can either install one your system or
  
  ## Running the project
  in the project directory Run
- 
+ put the AMQ_URL in the .env file
  `$ ./start-server.sh`
  
  the server will be serve on port 8000
