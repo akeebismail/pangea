@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     res.send('ok')
 })
 app.use(route)
-http.createServer(app).listen(8000, async () => {
+http.createServer(app).listen(8000,  () => {
     console.log('http running on 5000...')
 });
 

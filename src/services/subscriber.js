@@ -10,7 +10,7 @@ const attachEvents = require('./attachEvents')
 /**
  * Create a Subscriber with the given options.
  * @param options
- *   - routingKeys An array of keys to use for message handler routing (optional, defaults to [queueName])
+ *   - routingKeys An array of keys to use for message handler routing (optional, defaults to [])
  *   - onError a handler to handle connection errors (optional)
  *   - onClose a handler to handle connection closed events (optional)
  * @return A Subscriber
